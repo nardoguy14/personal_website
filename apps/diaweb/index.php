@@ -28,7 +28,7 @@ session_start(); ?>
             <div class="jumbotron">
                 <h1>A Diabetes Glucose Dynamics Webapp</h1>
                 <p>
-                    Login with user:test1 password:test1 for a demo.
+                    Login with user:test1 password:test1 for a demo or download the <a href="sample.txt" >sample data</a>.
                 </p>
 
                
