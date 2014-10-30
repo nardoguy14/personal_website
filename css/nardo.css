@@ -1,0 +1,97 @@
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.navbar {
+   background-color: white;
+   background: white;
+   
+}
+
+body {
+  position:relative;
+}
+
+.navbar li { color: #000 } 
+/* ============================================================
+  SECTIONS
+============================================================ */
+
+section.module h2 {
+  margin-bottom: 10px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+section.module p {
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.project_text p {
+  margin: 0 50 10px;
+}
+
+section.module.content {
+  padding: 40px ;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.parallax-intro h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-intro {
+  height: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  background-image: url("../images/6.jpg");
+
+}
+section.module.parallax-1 {
+  background-image: url("../images/1.jpg");
+
+}
+section.module.parallax-2 {
+  background-image: url("../images/2.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("../images/3.jpg");
+}
+section.module.parallax-4 {
+  background-image: url("../images/4.jpg");
+}
