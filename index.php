@@ -13,16 +13,7 @@
 <script type="text/javascript" src="js/TweenMax.min.js"></script>
 <script type="text/javascript" src="js/jquery.scrollmagic.min.js"></script>
 <script type="text/javascript" src="js/jquery.scrollmagic.debug.js"></script>
-<script type="text/javascript"> 
-$(document).ready(function(){
-	$("ul.nav a").click(function() {
-	   	var href = $(this).attr('id').substring(1);;
-		href = $("section[id='"+href+"']");
-		$('html,body').animate({scrollTop: href.offset().top - window.innerHeight + href.height() },'slow');
-	});
-});
-
-</script>
+<script type="text/javascript" src="js/nardo.js"> </script>
 
 </head>
 
@@ -72,6 +63,9 @@ $(document).ready(function(){
 	   <center> <h1> About </h1> </center>
 	  </div>
 	</section>
+
+
+
 
 	<section class="module content">
 	  <div  class="container">
@@ -187,6 +181,49 @@ $(document).ready(function(){
 	  	<p> Logbook for diabetic patients to maintain glucose readings using Ruby on Rails</p>
 	  </div>
 	</section>
+
+	<section id="projects" class="module parallax parallax-5">
+	  <div  class="container">
+	  	<h1>Contact</h1> 
+	  </div>
+	</section>
+
+	<section class="module content">
+	  <div class="container project_text">
+
+	   <form id="contact">
+
+	   	<div class = "col-md-4">
+	   		<input  type="text" class="form-control " placeholder="Full Name" name = "name" id = "name"> 
+	   	</div>
+
+	   	<div class = "col-md-4">
+	   		<input  type="text" class="form-control " placeholder="E-mail" name = "email" id = "email"> <br>
+	   	</div>
+
+	   	<div class = "col-md-4">
+	   		<input  type="text" class="form-control " placeholder="Subject" name = "subject" id = "subject"> <br>
+	   	</div>
+
+	   	<div class = "col-md-12">
+	   		<textarea class="form-control" rows="3" placeholder="Message" name = "message" id = "message"></textarea> <br>
+	   	</div>
+
+	   	<div class = "  col-md-4 col-md-offset-8">
+	   		 <button type="submit" style = "float: right;" class="btn btn-default" id = "contact_submit">Submit</button>
+	   	</div>
+
+	   </form>
+	  
+	  </div>
+	</section>
+
+
+
+
+	<?php include("errormodal.html"); ?>
+	<?php include("success.html"); ?>
+	
 
 
 </body>
