@@ -43,7 +43,7 @@
               <li><a href="#" id = "_skills" class="scrollTo">Skills</a></li>
               <li><a href="#" id="_experience" class="scrollTo">Experience</a></li>
               <li><a href="#" id ="_projects"class="scrollTo">Projects</a></li>
-              <li><a href="#" id = "_contact"class="scrollTo">Contact</a></li>
+              <li><a href="#" id = "_contacts"class="scrollTo">Contact</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div>
@@ -74,7 +74,7 @@
 
 	    <a href="./resume.pdf" >See my Resume</a><br>
 
-	    <br><p>Thinking of new ideas to enhance the health of others by means of developing applications is constantly running thorugh my mind. When not actively contributing to a project I enjoy playing tennis, hiking, mountain biking, and photography ( as you can see in my pictures :P). </p>
+	    <br><p>Thinking of new ideas to enhance the health of others by means of developing applications is constantly running thorugh my mind. When not actively contributing to a project I enjoy playing tennis, hiking, mountain biking, and photography ( as you can see in my pictures ). </p>
 	  </div>
 	</section>
 
@@ -156,6 +156,14 @@
 		  <li>Utilized GOlang, JQuery, PHP, and a mySQL database to develop software for stereolithographic 3d bio-printers</li>
 		  <li>Managed and implemented hardware code of serial, USB, and GPIB devices</li>
 		</ul>
+
+		<h2> Dexcom </h2> 
+	  	<h3><i>&nbsp;&nbsp;&nbsp; Software Test Engineer Intern, V&V Group</i></h3><br>
+	  	<ul>
+		  <li>Used Junit and C# to test functionality of upcoming CGM</li>
+		  <li>Wwrote validation and verification reports on tools used for testing</li>
+		  <li>Corrected and maintained test scripts</li>
+		</ul>
 	  	
 	  </div>
 	</section>
@@ -168,7 +176,7 @@
 
 	<section class="module content">
 	  <div class="container project_text">
-	    <h2><a href="./apps/diaweb" >Diaweb</a></h2> 
+	    <h2>Diaweb</h2> <!-- ./apps/diaweb -->
 	  	<h3><i>&nbsp;&nbsp;&nbsp; Diabetes Analysis Webapp</i></h3><br>
 	  	<p> Used glucose readings from a Dexcom G4 CGM to build glucose   dynamic profiles of users utilizing PHP, JQuery, and a mySQL database </p>
 
@@ -176,9 +184,6 @@
 	  	<h3><i>&nbsp;&nbsp;&nbsp; Medical Records Webapp</i></h3><br>
 	  	<p>Patient side app where patients upload and share medical records with doctors implemented with PHP, JQuery, and a MongoDB database</p>
 		
-		<h2> QuickSuga - Work in Progress </h2> 
-	  	<h3><i>&nbsp;&nbsp;&nbsp; Diabetes Glucose Readings Log</i></h3><br>
-	  	<p> Logbook for diabetic patients to maintain glucose readings using Ruby on Rails</p>
 	  </div>
 	</section>
 
@@ -188,7 +193,7 @@
 	  </div>
 	</section>
 
-	<section class="module content">
+	<section id = "contacts" class="module content">
 	  <div class="container project_text">
 
 	   <form id="contact">
